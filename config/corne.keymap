@@ -23,9 +23,59 @@
             key-positions = <2 3 4>;
         };
 
-        semicolom {
+        semicolon {
             bindings = <&none>;
             key-positions = <32 33>;
+        };
+
+        crl+z {
+            bindings = <&kp LC(Z)>;
+            key-positions = <25 26>;
+        };
+
+        crl+x {
+            bindings = <&kp LC(X)>;
+            key-positions = <26 27>;
+        };
+
+        crl+c {
+            bindings = <&kp LC(C)>;
+            key-positions = <28 27>;
+        };
+
+        crl+c {
+            bindings = <&kp LC(V)>;
+            key-positions = <29 28>;
+        };
+
+        dollar {
+            bindings = <&kp DOLLAR>;
+            key-positions = <30 31>;
+        };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <31 32>;
+        };
+
+        underscore {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <31 32 33>;
+        };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <10 9>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <16 15>;
+        };
+
+        capslock {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <13 14>;
         };
     };
 
