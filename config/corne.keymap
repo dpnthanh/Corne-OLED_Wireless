@@ -29,22 +29,22 @@
         };
 
         crl+z {
-            bindings = <&kp LC(Z)>;
+            bindings = <&kp LG(Z)>;
             key-positions = <25 26>;
         };
 
         crl+x {
-            bindings = <&kp LC(X)>;
+            bindings = <&kp LG(X)>;
             key-positions = <26 27>;
         };
 
         crl+c {
-            bindings = <&kp LC(C)>;
+            bindings = <&kp LG(C)>;
             key-positions = <28 27>;
         };
 
         crl+v {
-            bindings = <&kp LC(V)>;
+            bindings = <&kp LG(V)>;
             key-positions = <29 28>;
         };
 
@@ -76,6 +76,11 @@
         capslock {
             bindings = <&kp CAPSLOCK>;
             key-positions = <13 14>;
+        };
+
+        new_tap {
+            bindings = <&kp LG(T)>;
+            key-positions = <5 4>;
         };
     };
 
