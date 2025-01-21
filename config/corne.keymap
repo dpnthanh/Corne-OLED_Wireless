@@ -43,7 +43,7 @@
             key-positions = <28 27>;
         };
 
-        crl+c {
+        crl+v {
             bindings = <&kp LC(V)>;
             key-positions = <29 28>;
         };
