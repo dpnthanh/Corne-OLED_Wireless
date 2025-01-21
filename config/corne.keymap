@@ -24,7 +24,7 @@
         };
 
         semicolon {
-            bindings = <&none>;
+            bindings = <&kp SEMI>;
             key-positions = <32 33>;
         };
 
