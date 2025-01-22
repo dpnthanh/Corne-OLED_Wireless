@@ -86,6 +86,11 @@
             bindings = <&kp ESCAPE>;
             key-positions = <1 2>;
         };
+
+        enter {
+            bindings = <&kp RGUI>;
+            key-positions = <7 8>;
+        };
     };
 
     keymap {
