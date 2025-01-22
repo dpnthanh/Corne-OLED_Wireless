@@ -54,7 +54,7 @@
 
         backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <10 9>;
+            key-positions = <21 22>;
         };
 
         tab {
@@ -80,6 +80,11 @@
         angle_bracket_2 {
             bindings = <&kp GREATER_THAN>;
             key-positions = <21 20>;
+        };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <1 2>;
         };
     };
 
